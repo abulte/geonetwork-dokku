@@ -38,6 +38,8 @@ export POSTGRES_DB_NAME=$db
 export POSTGRES_DB_USERNAME=$user
 export POSTGRES_DB_PASSWORD=$pass
 
+env
+
 # Call the original entrypoint with CMD arguments
 exec "$@"
 
